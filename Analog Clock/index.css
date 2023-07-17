@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+#clockContainer{
+    /* background-color: gray; */
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    top:30px;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    border:2px solid gray;
+    justify-content: center;
+}
+#hour, #minute,#second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    width: 1%;
+    height: 25%;
+    top: 24%;
+    left: 49.3%;
+    opacity: 0.8;
+}
+#minute{
+    width: 1%;
+    height: 32%;
+    top: 17%;
+    left: 49.3%;
+    opacity: 0.8;
+}
+
+#second{
+    width: 1%;
+    height: 38%;
+    top: 12%;
+    left: 49.3%;
+    opacity:0.8;
+}
+.bgcolor{
+    background-color: gray;
+}
+
+.futr{
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;  
+    left: 0px;  
+    bottom: 0px;  
+    right: 0px;   
+    width: 100%;  
+    background-color: gray;  
+    color: white;  
+    text-align: center;  
+}
+.para{
+    justify-content: center;
+}
